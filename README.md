@@ -4,8 +4,8 @@
     1. 去标点符号和stopword
     2. 分词  
     3. 构造 词-文档 矩阵A
-    4. 奇异值分解SVD,   保留90%的特征 
-    ![image](https://github.com/BreakthrougBackEndTech/LSA/raw/master/usv.jpg)
+    4. 奇异值分解SVD,   保留90%的特征
+    ![分解公式](usv.jpg)
     5. 应用场景
         a. 推荐:  直接用Vt（topic-文档矩阵）求相似度
         b. 搜索:  通过查询条件Xq构造伪文档矩阵Dq,  利用Dq和Vt 求余弦相似度.
